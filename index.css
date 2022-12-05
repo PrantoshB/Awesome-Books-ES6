@@ -1,0 +1,126 @@
+* {
+  font-family: sans-serif;
+}
+
+.booksdata,
+.addbooks,
+.contact {
+  align-items: center;
+  margin-top: 15vh;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.book-list {
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 2% 0;
+  width: 50%;
+}
+
+button,
+input {
+  font-size: 1.2rem;
+}
+
+form button {
+  width: 25%;
+  margin: 2% 0 0 26.5%;
+}
+
+nav ul {
+  display: flex;
+  width: 30%;
+}
+
+.title-and-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  height: 5vh;
+  background: rgb(217, 217, 217);
+}
+
+.title-and-author:nth-child(even) {
+  background-color: white;
+}
+
+.contact {
+  text-align: center;
+}
+
+nav ul a {
+  list-style: none;
+  margin: 0 2% 0 auto;
+  text-decoration: none;
+  color: black;
+}
+
+.contact ul {
+  text-align: left;
+  margin-left: 25%;
+}
+
+footer {
+  /* margin-top: 60vh; */
+  position: fixed;
+  bottom: 0;
+  right: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+header p {
+  text-align: right;
+  padding-right: 2%;
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  padding: 0 1.5%;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+}
+
+.contact,
+.addbooks {
+  display: none;
+}
+
+a:hover {
+  color: rgb(42, 90, 161);
+}
+
+.emptymsg {
+  display: none;
+  margin-top: 15vh;
+  font-size: 0.95rem;
+}
